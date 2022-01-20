@@ -44,12 +44,12 @@ const defaultMenu = {
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
+│ Github: https://github.com/Ervan2525/sesceh-bot
+│
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
+  body: '│ ➣ %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
 *%npmname@^%version*
