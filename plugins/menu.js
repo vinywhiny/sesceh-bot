@@ -46,7 +46,6 @@ const defaultMenu = {
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
-│ Github: https://github.com/Ervan2525/sesceh-bot
 │
 ╰────
 %readmore`.trimStart(),
