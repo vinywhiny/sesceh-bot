@@ -169,7 +169,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
 }
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `Relldev`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN: Rlxfly UwU\nitem1.TEL;waid=6283820073017:6283820073017\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
-conn.send3ButtonImg(m.chat, thumb, `*『${conn.user.name}』*`, text.trim(), '👑𝐃𝐄𝐕𝐈𝐒𝐄𝐑👑', '.owner', '✨𝐒𝐏𝐄𝐄𝐃✨', '-ping', '🎗️𝐘𝐎𝐔🎗️', '.profile', reply)
+conn.send3ButtonImg(m.chat, thumb, `*『${conn.user.name}』*`, text.trim(), 'OWNER', '.owner', 'SPEED', '-ping', 'PROFILE', '.profile', reply)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
