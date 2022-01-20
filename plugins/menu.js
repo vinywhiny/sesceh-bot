@@ -40,8 +40,8 @@ const defaultMenu = {
 │ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 │ %totalexp XP in Total
 │ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
+│ SC original: Narutomo
+| Recode: Rimuru
 │ Waktu: *%time*
 │
 │ Uptime: *%uptime (%muptime)*
