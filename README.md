@@ -164,7 +164,7 @@ jadibot: false,
 
 ---------
 
-<a href="https://api.xteam.xyz"><img src="https://i.ibb.co/dL0fWHL/avatar-contact.png" width="100" height="100"></a> | [![Ervan2525](https://github.com/Ervan2525.png?size=100)](https://github.com/Ervan2525) | [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25)
+<a href="https://api.xteam.xyz"><img src="https://i.ibb.co/dL0fWHL/avatar-contact.png" width="100" height="100"></a> | [![Ervan2525](https://github.com/Ervan2525.png?size=100)](https://github.com/Ervan2525)
 ----|----|----|----
 [XTEAM](https://api.xteam.xyz/) | [Ervan2525](https://github.com/Ervan2525)
 Powered by XTEAM | Author / Creator | Most Active Contributor | 2nd Most Active Contributor
