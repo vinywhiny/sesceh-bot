@@ -37,12 +37,10 @@ const defaultMenu = {
 │
 │ Tersisa *%limit Limit*
 │ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
-│ %totalexp XP in Total
+│ Level *%level (%exp / %maxexp)*
 │ 
 │ SC original: Narutomo
-| Recode: Rimuru
-│ Waktu: *%time*
+│ Recode: Rimuru
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
