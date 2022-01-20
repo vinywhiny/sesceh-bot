@@ -3,7 +3,8 @@
 Simple WhatsApp Bot
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nurutomo/wabot-aq)
-
+# join bang gc sepi :(
+* [`Join sini`](https://chat.whatsapp.com/GQjitfg5L3PEtN6q2HNoMq)
 ## FOR TERMUX/UBUNTU/SSH USER
 
 ```bash
