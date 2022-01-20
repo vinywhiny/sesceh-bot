@@ -82,9 +82,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       year: 'numeric'
     }).format(d)
     let time = d.toLocaleTimeString(locale, {
-      hour: 'numeric',
-      minute: 'numeric',
-      second: 'numeric'
+      hour12: false
     })
     let _uptime = process.uptime() * 1000
     let _muptime
@@ -153,7 +151,25 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.reply(m.chat, text.trim(), m)
+    //Iya bang sy nub
+    const reply = {
+    key: {
+        participant: '0@s.whatsapp.net'
+    },
+    message: {
+        orderMessage: {
+            itemCount: 1122334455,
+            itemCoun: 404,
+            surface: 404,
+            message: `© ${conn.user.name}`,
+            orderTitle: 'B',
+            thumbnail: thumb,
+            sellerJid: '0@s.whatsapp.net'
+        }
+    }
+}
+let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `Relldev`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN: Rlxfly UwU\nitem1.TEL;waid=6283820073017:6283820073017\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
+conn.send3ButtonImg(m.chat, thumb, `*『${conn.user.name}』*`, text.trim(), 'OWNER', '.owner', 'SPEED', '-info', 'PROFILE', '.profile', reply)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
@@ -174,6 +190,7 @@ handler.botAdmin = false
 handler.fail = null
 handler.exp = 3
 
+
 module.exports = handler
 
 const more = String.fromCharCode(8206)
@@ -185,3 +202,4 @@ function clockString(ms) {
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
+
