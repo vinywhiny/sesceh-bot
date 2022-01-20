@@ -36,7 +36,6 @@ const defaultMenu = {
 │ Hai, %name!
 │
 │ Tersisa *%limit Limit*
-│ Role *%role*
 │ Level *%level (%exp / %maxexp)*
 │ 
 │ SC original: Narutomo
@@ -45,6 +44,8 @@ const defaultMenu = {
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │
+│ Github: https://github.com/Ervan2525
+│ YouTube: https://youtube.com/channel/UCQV7cLK7IY_MRMHH4phQORQ
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
