@@ -34,7 +34,7 @@ const defaultMenu = {
   before: `
 ╭─「 %me 」
 │ Hai, %name!
-│
+│ BUTTON SEDANG ERROR!
 │ Tersisa *%limit Limit*
 │ Level *%level (%exp / %maxexp)*
 │ 
